@@ -11,10 +11,10 @@ const Home: React.FC = () => {
     <>
       <section className="hero-section">
         <div className="hero-content">
-          <h1>Building Practical AI Products</h1>
+          <h1>Building Practical AI-powered Products</h1>
           <p className="tagline">Software we'd want to use ourselves</p>
           <p className="hero-description">
-            We're a small team building AI software. We pick problems where good tools don't exist yet, or where existing ones could be cheaper or better. Today our products span personal productivity, software marketplaces, mediation, financial research, and poker training.
+            We're a small team building AI-powered software. We pick problems where good tools don't exist yet, or where existing ones could be cheaper or better. Today our products span personal productivity, software marketplaces, mediation, financial research, and poker training.
           </p>
           <div className="hero-buttons">
             <a href="#products" className="btn-primary">Explore Our Products</a>

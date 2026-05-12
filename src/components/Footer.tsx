@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-section">
             <h3>Maia Technologies</h3>
-            <p>Building practical AI software</p>
+            <p>Building practical AI-powered software</p>
             <p className="copyright">&copy; 2025 Maia AI, LLC. All rights reserved.</p>
           </div>
           
