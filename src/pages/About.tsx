@@ -26,10 +26,7 @@ const About: React.FC = () => {
               change and build the products that would define new categories.
             </p>
             <p>
-              Today, we operate as an innovation lab, developing multiple AI-powered solutions 
-              across different industries. From innovations in tournament management and AI video 
-              coaching with EdgeView to creating intelligent assistants for personal and business use, 
-              we're committed to building products that matter.
+              Today, we operate as an innovation lab, developing AI-powered products across personal productivity, software marketplaces, mediation, financial research, and consumer applications. We're committed to building products that matter.
             </p>
           </div>
         </div>
