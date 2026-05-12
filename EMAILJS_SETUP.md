@@ -127,7 +127,7 @@ This message was sent from the Request Access form on maiatech.ai.
 
 ### Recipient
 
-The recipient (`support@maiatech.ai`) is configured on the EmailJS template, not in code.
+The recipient (`info@maiatech.ai`) is configured on the EmailJS template, not in code.
 
 ### Wiring the Template ID
 
