@@ -65,14 +65,12 @@ src/
 │   ├── Home.tsx        # Homepage
 │   ├── About.tsx       # About Us page
 │   ├── Products.tsx    # Products overview
-│   ├── EdgeViewProduct.tsx  # EdgeView detailed page
 │   ├── Team.tsx        # Team page
 │   └── Contact.tsx     # Contact page
 ├── styles/             # CSS files
 │   ├── Home.css
 │   ├── About.css
 │   ├── Products.css
-│   ├── EdgeViewProduct.css
 │   ├── Team.css
 │   ├── Contact.css
 │   ├── Navigation.css
