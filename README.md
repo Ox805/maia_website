@@ -6,7 +6,7 @@ This is the marketing website for Maia Technologies, a small team building pract
 
 Maia Technologies is a small team building AI software, picking problems where good tools don't exist yet or where existing ones could be cheaper or better. Our current products:
 
-- **Maia**: Your AI-powered productivity companion (iOS).
+- **Maia**: An AI that handles phone calls for you, navigating phone trees and bot gatekeepers to get you to a live person (iOS, coming soon).
 - **BuildMyApp**: A demand-first software marketplace where buyers commission custom software and license completed products.
 - **Vilora**: An AI-powered platform for mediation, collaboration, brainstorming, and decision-making.
 - **AlphaAI**: An intelligent investment research platform combining AI agents with automated discovery (private access).

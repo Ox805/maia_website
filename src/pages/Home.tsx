@@ -33,9 +33,9 @@ const Home: React.FC = () => {
               </div>
               <h3>Maia</h3>
               <p>
-                An AI assistant for everyday tasks, scheduling, and information lookup. Maia learns how you work and adapts to your preferences, with a privacy-first design.
+                An AI that handles phone calls for you. Maia navigates phone trees, gets account information, holds your place in line, and gets you to a live person, so you can skip the bot gatekeepers.
               </p>
-              <span className="product-badge">Available on iOS</span>
+              <span className="product-badge">Coming soon to Apple App Store</span>
             </div>
 
             <div className="product-card">

@@ -7,7 +7,7 @@ const About: React.FC = () => {
       <section className="about-hero">
         <div className="container">
           <h1>About Maia Technologies</h1>
-          <p className="lead">A small team building practical AI software</p>
+          <p className="lead">A small team that likes to build stuff</p>
         </div>
       </section>
 
@@ -19,7 +19,7 @@ const About: React.FC = () => {
               Maia AI LLC started in 2024. AI was getting much more capable, and we noticed plenty of everyday problems where the existing tools either didn't exist or felt overpriced and over-engineered. So we started building.
             </p>
             <p>
-              We're a small group of technologists and entrepreneurs. The bar for each product is simple: at least one of us actually wants to use it. If it isn't useful to us, we don't ship it.
+              We're a small group of technologists and entrepreneurs. The bar for each product is simple: we want to use it ourselves, and either it doesn't exist yet or could be done better or cheaper. If it isn't useful to us, we don't ship it.
             </p>
             <p>
               Today we have five active products across personal productivity, software marketplaces, mediation, financial research, and a poker trainer. We're focused on shipping software people actually use.
@@ -40,7 +40,7 @@ const About: React.FC = () => {
             <div className="mv-card">
               <h2>Our Vision</h2>
               <p>
-                Be a small lab known for shipping useful AI products. No moonshots, just things people use every day.
+                Build stuff that people like using.
               </p>
             </div>
           </div>

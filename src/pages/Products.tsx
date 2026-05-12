@@ -31,23 +31,23 @@ const Products: React.FC = () => {
                 <img src="/images/maia-icon.jpg" alt="Maia" className="product-detail-img" />
               </div>
               <div className="product-description">
-                <h3>An AI assistant for everyday tasks</h3>
+                <h3>An AI that handles phone calls for you</h3>
                 <p>
-                  Maia is an iOS app that helps you organize tasks, find information, and stay on top of daily workflows. It learns how you work and adapts to your preferences, with a privacy-first design.
+                  Maia is an iOS app that makes calls to businesses for you so you can bypass automated phone systems. Maia interacts with the bot gatekeepers so you don't have to. She can navigate phone trees, get account information, hold your place in line, request a callback when hold times are long, and get you to a live person. We're adding new capabilities over time.
                 </p>
                 <h4>Key Features:</h4>
                 <ul>
-                  <li>Natural-language task management</li>
-                  <li>Intelligent information retrieval</li>
-                  <li>Personalized recommendations</li>
-                  <li>Multi-platform sync</li>
+                  <li>Navigates phone trees and automated systems</li>
+                  <li>Holds your place in line and requests callbacks</li>
+                  <li>Gets you to a live agent</li>
+                  <li>Retrieves account information on your behalf</li>
                   <li>Privacy-first design</li>
                 </ul>
                 <h4>Who it's for:</h4>
                 <p>
-                  Anyone who wants help organizing their day.
+                  Anyone who hates automated phone systems.
                 </p>
-                <span className="product-badge">Available on iOS</span>
+                <span className="product-badge">Coming soon to Apple App Store</span>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Products: React.FC = () => {
                 </ul>
                 <h4>Who it's for:</h4>
                 <p>
-                  Small businesses commissioning their first piece of custom software, domain experts inside larger organizations, and developers looking for validated demand.
+                  Small businesses and individuals who want to automate tasks with custom software but don't have the expertise or bandwidth to build internally or hire and manage developers. Also developers looking for validated demand.
                 </p>
                 <button
                   type="button"
@@ -142,7 +142,7 @@ const Products: React.FC = () => {
                 <h4>Three Live AI Agents:</h4>
                 <ul>
                   <li><strong>Morning Briefing Agent:</strong> Daily market intelligence powered by real economic data. FRED API indicators (unemployment, inflation, Fed rates), earnings calendar, pre-market conditions, weekly themes, and professional market analysis in minutes.</li>
-                  <li><strong>Research Agent:</strong> Comprehensive company and stock analysis. Natural-language queries (e.g., "Analyze Tesla's growth potential vs Ford"), financial fundamentals via yfinance, multi-company comparisons, and AI-powered investment recommendations.</li>
+                  <li><strong>Research Agent:</strong> Comprehensive company and stock analysis. Natural-language queries (e.g., "Analyze AMD's growth potential vs Nividia"), financial fundamentals via yfinance, multi-company comparisons, and AI-powered investment recommendations.</li>
                   <li><strong>Strategy Agent:</strong> Investment strategy development and portfolio optimization. Interactive strategy builder (value, growth, momentum), risk tolerance configuration, and portfolio allocation recommendations.</li>
                 </ul>
                 <p>
@@ -168,9 +168,9 @@ const Products: React.FC = () => {
                 <img src="/images/alphapoker-icon.jpg" alt="AlphaPoker" className="product-detail-img" />
               </div>
               <div className="product-description">
-                <h3>Practice poker against GTO-style AI opponents</h3>
+                <h3>Practice poker AI opponents where you can set thier playing style</h3>
                 <p>
-                  AlphaPoker is a web-based poker trainer that lets you practice against AI opponents using GTO (Game-Theory-Optimal) strategy. Play No-Limit Texas Hold'em and Pot-Limit Omaha in heads-up through 6-max formats, with a real-time coach analyzing every decision and comparing your plays to optimal strategy.
+                  AlphaPoker is a web-based poker trainer that lets you practice against AI opponents playing GTO (Game-Theory-Optimal) or other strategies. Play No-Limit Texas Hold'em and Pot-Limit Omaha in heads-up through 6-max formats, with a real-time coach analyzing every decision and comparing your plays to optimal strategy.
                 </p>
                 <h4>Key Features:</h4>
                 <ul>
@@ -188,7 +188,7 @@ const Products: React.FC = () => {
                 </ul>
                 <h4>Who it's for:</h4>
                 <p>
-                  Poker players who want serious GTO training and analysis without paying for expensive solver software.
+                  Poker players who want serious GTO training and analysis that's fun, without the price tag or complexity of solver software.
                 </p>
                 <button type="button" className="btn-primary" onClick={() => setAccessOpen('AlphaPoker')}>
                   Request Access
