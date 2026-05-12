@@ -145,9 +145,6 @@ const Products: React.FC = () => {
                   <li><strong>Research Agent:</strong> Comprehensive company and stock analysis. Natural-language queries (e.g., "Analyze AMD's growth potential vs Nvidia"), financial fundamentals via yfinance, multi-company comparisons, and AI-powered investment recommendations.</li>
                   <li><strong>Strategy Agent:</strong> Investment strategy development and portfolio optimization. Interactive strategy builder (value, growth, momentum), risk tolerance configuration, and portfolio allocation recommendations.</li>
                 </ul>
-                <p>
-                  <strong>Plus, in development:</strong> Investment Discovery System, automated daily screening using 21 quantitative factors to identify undervalued opportunities.
-                </p>
                 <button type="button" className="btn-primary" onClick={() => setAccessOpen('AlphaAI')}>
                   Request Access
                 </button>
