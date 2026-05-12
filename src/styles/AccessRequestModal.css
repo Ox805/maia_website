@@ -1,0 +1,110 @@
+.access-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 15, 30, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.access-modal {
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 520px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.access-modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #555;
+}
+
+.access-modal-close:hover {
+  color: #000;
+}
+
+.access-modal h2 {
+  margin: 0 0 0.5rem;
+  color: #1a1a2e;
+}
+
+.access-modal-subtitle {
+  margin: 0 0 1.5rem;
+  color: #555;
+}
+
+.access-modal-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.access-modal-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #1a1a2e;
+}
+
+.access-modal-form input,
+.access-modal-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d0d0d8;
+  border-radius: 6px;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.access-modal-form input:focus,
+.access-modal-form textarea:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 1px;
+  border-color: #667eea;
+}
+
+.access-modal-form .btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.access-modal-form .btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.access-modal-form .form-message {
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.access-modal-form .form-message.success {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+.access-modal-form .form-message.error {
+  background: #ffebee;
+  color: #b71c1c;
+}
