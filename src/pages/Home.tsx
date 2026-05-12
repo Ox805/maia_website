@@ -33,7 +33,7 @@ const Home: React.FC = () => {
               </div>
               <h3><img src="/images/logos/maia-logo.png" alt="Maia" className="product-logo" /></h3>
               <p>
-                An AI that handles phone calls for you. Maia navigates phone trees, gets account information, holds your place in line, and gets you to a live person, so you can skip the bot gatekeepers.
+                Maia is an iOS app that makes calls to businesses for you, so you can bypass automated phone systems. She navigates phone trees, gets account information, holds your place in line, and gets you to a live person.
               </p>
               <span className="product-badge">Coming soon to Apple App Store</span>
             </div>
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
               </div>
               <h3><img src="/images/logos/bma-logo.png" alt="BuildMyApp" className="product-logo" /></h3>
               <p>
-                A marketplace for commissioning custom software. Buyers post fixed-price requests, developers build, and the finished apps launch with one click.
+                A marketplace for commissioning custom software. Buyers post fixed-price requests, developers build, and the finished app launches with one click, with a 30-day warranty on every build.
               </p>
               <a href="https://appmarketplace.dev" className="learn-more" target="_blank" rel="noopener noreferrer">Learn More &rarr;</a>
             </div>
@@ -55,7 +55,7 @@ const Home: React.FC = () => {
               </div>
               <h3><img src="/images/logos/vilora-logo.svg" alt="Vilora" className="product-logo" /></h3>
               <p>
-                An AI for mediation, brainstorming, and tough decisions. Use it solo, with one other person, or as a group.
+                An AI for mediation, collaboration, brainstorming, and decision-making. Use it solo, with another person, or as a group.
               </p>
               <a href="https://vilora.ai" className="learn-more" target="_blank" rel="noopener noreferrer">Learn More &rarr;</a>
             </div>
@@ -66,7 +66,7 @@ const Home: React.FC = () => {
               </div>
               <h3>AlphaAI</h3>
               <p>
-                AI agents for investment research, analysis, and strategy, plus an automated screener that surfaces undervalued opportunities. No coding required.
+                Three AI agents for morning market briefings, company research, and strategy building, plus an automated screener that surfaces undervalued opportunities. No coding required.
               </p>
               <button type="button" className="btn-primary" onClick={() => setAccessOpen('AlphaAI')}>
                 Request Access
