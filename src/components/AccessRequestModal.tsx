@@ -10,7 +10,7 @@ export type AccessRequestModalProps = {
 
 const EMAILJS_SERVICE_ID = 'service_swi6amx';
 const EMAILJS_PUBLIC_KEY = 'DiJ2_UqcVKRzuKMBE';
-const EMAILJS_ACCESS_TEMPLATE_ID = 'TEMPLATE_ID_FROM_TIM';
+const EMAILJS_ACCESS_TEMPLATE_ID = 'template_fmev10c';
 
 const initialForm = {
   name: '',
