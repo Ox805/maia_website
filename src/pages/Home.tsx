@@ -124,8 +124,8 @@ const Home: React.FC = () => {
               <p>We start with problems we have or see firsthand. If the existing solution is fine, we leave it alone.</p>
             </div>
             <div className="approach-card">
-              <h3>Ship Early</h3>
-              <p>Get something working, put it in front of users, fix what's wrong, repeat. We'd rather learn from real use than guess on a roadmap.</p>
+              <h3>Build and Ship at Speeds That'll Make Heads Spin</h3>
+              <p>Real products to market in days not months.</p>
             </div>
             <div className="approach-card">
               <h3>Better or Cheaper</h3>
