@@ -66,7 +66,7 @@ const Home: React.FC = () => {
               </div>
               <h3>AlphaAI</h3>
               <p>
-                Three AI agents for morning market briefings, company research, and strategy building, plus an automated screener that surfaces undervalued opportunities. No coding required.
+                Three AI agents for morning market briefings, company research, and strategy building, plus an automated screener that surfaces undervalued opportunities with regression analysis. No coding required.
               </p>
               <button type="button" className="btn-primary" onClick={() => setAccessOpen('AlphaAI')}>
                 Request Access
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
               </div>
               <h3>AlphaPoker</h3>
               <p>
-                Practice No-Limit Hold'em and Pot-Limit Omaha against GTO-style AI opponents, with a real-time coach analyzing every decision. Solver-grade training without the solver price tag.
+                Practice No-Limit Hold'em and Pot-Limit Omaha against GTO opponents, with a real-time coach analyzing and grading every decision. Solver-grade training without the solver price tag or complexity.
               </p>
               <button type="button" className="btn-primary" onClick={() => setAccessOpen('AlphaPoker')}>
                 Request Access

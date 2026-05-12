@@ -34,13 +34,13 @@ const About: React.FC = () => {
             <div className="mv-card">
               <h2>Our Mission</h2>
               <p>
-                Build AI software we'd want to use, in areas where good options don't exist yet or could be done better or cheaper.
+                Build stuff that people like using.
               </p>
             </div>
             <div className="mv-card">
               <h2>Our Vision</h2>
               <p>
-                Build stuff that people like using.
+                Create products we'd want to use, in areas where good options don't exist yet or could be done better or cheaper.
               </p>
             </div>
           </div>
@@ -60,12 +60,12 @@ const About: React.FC = () => {
               <p>We use the products we ship. If we wouldn't want to use it, we don't build it.</p>
             </div>
             <div className="value-card">
-              <h3>Ship Early</h3>
-              <p>Get something working, put it in front of users, fix what's wrong. Then do it again.</p>
+              <h3>Build and Ship at Speeds That'll Make Heads Spin</h3>
+              <p>Real products to market in days not months.</p>
             </div>
             <div className="value-card">
               <h3>Pick Real Problems</h3>
-              <p>We focus on problems we have or see clearly, not abstract opportunities.</p>
+              <p>We focus on problems we have or see clearly and understand how to solve them.</p>
             </div>
             <div className="value-card">
               <h3>Open to Collaboration</h3>

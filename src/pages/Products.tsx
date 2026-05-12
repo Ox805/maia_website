@@ -137,12 +137,12 @@ const Products: React.FC = () => {
               <div className="product-description">
                 <h3>Investment research and strategy, powered by AI agents</h3>
                 <p>
-                  AlphaAI is a research tool for investors. Three AI agents handle morning briefings, deep company analysis, and strategy and portfolio building. A separate automated screener works through 21 quantitative factors daily to surface undervalued opportunities. No coding required: point, click, and explore.
+                  AlphaAI is a research tool for investors. Three AI agents handle morning briefings, deep company analysis, and strategy and portfolio building. A separate automated screener works through 21 quantitative factors daily, using regression analysis to surface undervalued opportunities. No coding required: point, click, and explore.
                 </p>
                 <h4>Three Live AI Agents:</h4>
                 <ul>
                   <li><strong>Morning Briefing Agent:</strong> Daily market intelligence powered by real economic data. FRED API indicators (unemployment, inflation, Fed rates), earnings calendar, pre-market conditions, weekly themes, and professional market analysis in minutes.</li>
-                  <li><strong>Research Agent:</strong> Comprehensive company and stock analysis. Natural-language queries (e.g., "Analyze AMD's growth potential vs Nividia"), financial fundamentals via yfinance, multi-company comparisons, and AI-powered investment recommendations.</li>
+                  <li><strong>Research Agent:</strong> Comprehensive company and stock analysis. Natural-language queries (e.g., "Analyze AMD's growth potential vs Nvidia"), financial fundamentals via yfinance, multi-company comparisons, and AI-powered investment recommendations.</li>
                   <li><strong>Strategy Agent:</strong> Investment strategy development and portfolio optimization. Interactive strategy builder (value, growth, momentum), risk tolerance configuration, and portfolio allocation recommendations.</li>
                 </ul>
                 <p>
@@ -168,9 +168,9 @@ const Products: React.FC = () => {
                 <img src="/images/alphapoker-icon.jpg" alt="AlphaPoker" className="product-detail-img" />
               </div>
               <div className="product-description">
-                <h3>Practice poker AI opponents where you can set thier playing style</h3>
+                <h3>Practice poker against AI opponents whose playing style you can set</h3>
                 <p>
-                  AlphaPoker is a web-based poker trainer that lets you practice against AI opponents playing GTO (Game-Theory-Optimal) or other strategies. Play No-Limit Texas Hold'em and Pot-Limit Omaha in heads-up through 6-max formats, with a real-time coach analyzing every decision and comparing your plays to optimal strategy.
+                  AlphaPoker is a web-based poker trainer that lets you practice against AI opponents playing GTO (Game-Theory-Optimal) or other strategies. Play No-Limit Texas Hold'em and Pot-Limit Omaha in heads-up through 6-max formats, with a real-time coach analyzing and grading every decision and comparing your plays to optimal strategy.
                 </p>
                 <h4>Key Features:</h4>
                 <ul>
