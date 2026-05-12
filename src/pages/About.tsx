@@ -7,7 +7,7 @@ const About: React.FC = () => {
       <section className="about-hero">
         <div className="container">
           <h1>About Maia Technologies</h1>
-          <p className="lead">Innovation Lab Building the Future of AI-Powered Software</p>
+          <p className="lead">A small team building practical AI software</p>
         </div>
       </section>
 
@@ -16,17 +16,13 @@ const About: React.FC = () => {
           <div className="story-content">
             <h2>Our Story</h2>
             <p>
-              Founded in 2024, Maia Technologies emerged from a simple observation: while AI technology 
-              was advancing rapidly, many industries lacked the expertise and resources to 
-              harness its transformative potential. We set out to bridge this gap.
+              Maia AI LLC started in 2024. AI was getting much more capable, and we noticed plenty of everyday problems where the existing tools either didn't exist or felt overpriced and over-engineered. So we started building.
             </p>
             <p>
-              Our team of experienced technologists and entrepreneurs came together with a 
-              shared vision: to identify opportunities where AI could create revolutionary 
-              change and build the products that would define new categories.
+              We're a small group of technologists and entrepreneurs. The bar for each product is simple: at least one of us actually wants to use it. If it isn't useful to us, we don't ship it.
             </p>
             <p>
-              Today, we operate as an innovation lab, developing AI-powered products across personal productivity, software marketplaces, mediation, financial research, and consumer applications. We're committed to building products that matter.
+              Today we have five active products across personal productivity, software marketplaces, mediation, financial research, and a poker trainer. We're focused on shipping software people actually use.
             </p>
           </div>
         </div>
@@ -38,17 +34,13 @@ const About: React.FC = () => {
             <div className="mv-card">
               <h2>Our Mission</h2>
               <p>
-                To identify and capitalize on transformative AI opportunities across industries, 
-                creating software products that redefine how people work, play, and interact 
-                with technology.
+                Build AI software we'd want to use, in areas where good options don't exist yet or could be done better or cheaper.
               </p>
             </div>
             <div className="mv-card">
               <h2>Our Vision</h2>
               <p>
-                To be a premier AI innovation lab, known for creating category-defining 
-                products and businesses that seamlessly integrate artificial intelligence into everyday life 
-                and business operations.
+                Be a small lab known for shipping useful AI products. No moonshots, just things people use every day.
               </p>
             </div>
           </div>
@@ -60,28 +52,28 @@ const About: React.FC = () => {
           <h2>Core Values</h2>
           <div className="values-grid">
             <div className="value-card">
-              <h3>Innovation First</h3>
-              <p>We constantly push boundaries, exploring new applications of AI technology.</p>
+              <h3>Build What's Missing</h3>
+              <p>If a tool would make a thing easier and nobody's built it, that's a good place to start.</p>
             </div>
             <div className="value-card">
-              <h3>User-Centric Design</h3>
-              <p>Every product we build starts with understanding real user needs and pain points.</p>
+              <h3>Use What We Make</h3>
+              <p>We use the products we ship. If we wouldn't want to use it, we don't build it.</p>
             </div>
             <div className="value-card">
-              <h3>Rapid Execution</h3>
-              <p>We move fast, iterate quickly, and aren't afraid to pivot when needed.</p>
+              <h3>Ship Early</h3>
+              <p>Get something working, put it in front of users, fix what's wrong. Then do it again.</p>
             </div>
             <div className="value-card">
-              <h3>Strategic Thinking</h3>
-              <p>We carefully select opportunities where we can create the most significant impact.</p>
+              <h3>Pick Real Problems</h3>
+              <p>We focus on problems we have or see clearly, not abstract opportunities.</p>
             </div>
             <div className="value-card">
-              <h3>Partnership Focused</h3>
-              <p>We believe in collaborative innovation and actively seek strategic partnerships.</p>
+              <h3>Open to Collaboration</h3>
+              <p>We work with teams whose tools we want to plug into, and we're easy to integrate with.</p>
             </div>
             <div className="value-card">
               <h3>Ethical AI</h3>
-              <p>We're committed to developing AI solutions that are responsible and beneficial.</p>
+              <p>We think about how each product affects users, and we don't ship things we wouldn't want done to us.</p>
             </div>
           </div>
         </div>
@@ -91,11 +83,12 @@ const About: React.FC = () => {
         <div className="container">
           <h2>Technology Partners</h2>
           <p className="partners-intro">
-            We leverage best-in-class technologies and platforms to build our innovative solutions.
+            Tools and platforms we use to build our products.
           </p>
           <div className="partners-grid">
             <div className="partner">Google Cloud Platform</div>
             <div className="partner">OpenAI</div>
+            <div className="partner">Anthropic</div>
             <div className="partner">Firebase</div>
             <div className="partner">React</div>
             <div className="partner">Python</div>

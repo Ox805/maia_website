@@ -14,7 +14,7 @@ const Products: React.FC = () => {
       <section className="products-hero">
         <div className="container">
           <h1>Our Products</h1>
-          <p className="lead">Innovative AI Solutions Transforming Industries</p>
+          <p className="lead">Five active products across personal AI, marketplaces, mediation, finance, and games</p>
         </div>
       </section>
 
@@ -31,9 +31,9 @@ const Products: React.FC = () => {
                 <img src="/images/maia-icon.jpg" alt="Maia" className="product-detail-img" />
               </div>
               <div className="product-description">
-                <h3>Your AI-powered productivity companion</h3>
+                <h3>An AI assistant for everyday tasks</h3>
                 <p>
-                  Maia is the flagship AI assistant from Maia AI LLC. Leveraging advanced language models and adaptive learning, Maia transforms how individuals manage tasks, information, and daily workflows.
+                  Maia is an iOS app that helps you organize tasks, find information, and stay on top of daily workflows. It learns how you work and adapts to your preferences, with a privacy-first design.
                 </p>
                 <h4>Key Features:</h4>
                 <ul>
@@ -43,9 +43,9 @@ const Products: React.FC = () => {
                   <li>Multi-platform sync</li>
                   <li>Privacy-first design</li>
                 </ul>
-                <h4>Target Market:</h4>
+                <h4>Who it's for:</h4>
                 <p>
-                  Professionals, students, and individuals seeking to enhance their productivity through intelligent AI assistance.
+                  Anyone who wants help organizing their day.
                 </p>
                 <span className="product-badge">Available on iOS</span>
               </div>
@@ -59,9 +59,9 @@ const Products: React.FC = () => {
             </div>
             <div className="product-content">
               <div className="product-description">
-                <h3>A demand-first software marketplace</h3>
+                <h3>A marketplace for commissioning custom software</h3>
                 <p>
-                  BuildMyApp is an AI-augmented marketplace where non-technical buyers commission custom software from independent developers and license completed products. Buyers post fixed-price requests, developers commit to build, and BMA operates the runtime so buyers can launch their software with one click. Built-in warranty, AI-mediated collaboration, and lifecycle revenue sharing make it a new model for software commissioning.
+                  BuildMyApp is a marketplace where non-technical buyers commission custom software from independent developers, or license already-built products. Buyers post fixed-price requests, developers build, and BMA operates the runtime so buyers can launch with one click. Every build comes with a 30-day warranty and AI-mediated dispute resolution. When a commissioned product gets re-licensed later, the original buyer earns a share.
                 </p>
                 <h4>Key Features:</h4>
                 <ul>
@@ -71,9 +71,9 @@ const Products: React.FC = () => {
                   <li>Developer Marketplace: developers list completed software (Buy and Buy-out pricing).</li>
                   <li>Lifecycle revenue split: original buyers earn when their commissioned software is re-licensed.</li>
                 </ul>
-                <h4>Target Market:</h4>
+                <h4>Who it's for:</h4>
                 <p>
-                  Small businesses commissioning their first piece of custom software, domain experts inside organizations, and developers looking for validated demand.
+                  Small businesses commissioning their first piece of custom software, domain experts inside larger organizations, and developers looking for validated demand.
                 </p>
                 <button
                   type="button"
@@ -101,7 +101,7 @@ const Products: React.FC = () => {
               <div className="product-description">
                 <h3>Strength Through Dialogue</h3>
                 <p>
-                  Vilora is an AI-powered platform for mediation, collaboration, brainstorming, and decision-making. Whether working through a disagreement, exploring ideas, making a tough decision, or planning something complex, Vilora facilitates the conversation, surfaces what matters, and helps people reach clarity. Use it alone, with another person, or as a group.
+                  Vilora is an AI for mediation, collaboration, brainstorming, and decision-making. Working through a disagreement, exploring an idea, making a tough call, or planning something complex: Vilora facilitates the conversation, surfaces what matters, and helps people reach clarity. Use it solo, with another person, or as a group.
                 </p>
                 <h4>Three Modes:</h4>
                 <ul>
@@ -135,9 +135,9 @@ const Products: React.FC = () => {
             </div>
             <div className="product-content">
               <div className="product-description">
-                <h3>An intelligent investment research platform</h3>
+                <h3>Investment research and strategy, powered by AI agents</h3>
                 <p>
-                  AlphaAI helps you find alpha in the markets using AI-powered analysis, automated screening, and strategy development. A dual-purpose platform combining on-demand AI agents for research and analysis with an automated investment discovery system. No coding required; point, click, and discover alpha.
+                  AlphaAI is a research tool for investors. Three AI agents handle morning briefings, deep company analysis, and strategy and portfolio building. A separate automated screener works through 21 quantitative factors daily to surface undervalued opportunities. No coding required: point, click, and explore.
                 </p>
                 <h4>Three Live AI Agents:</h4>
                 <ul>
@@ -170,7 +170,7 @@ const Products: React.FC = () => {
               <div className="product-description">
                 <h3>Practice poker against GTO-style AI opponents</h3>
                 <p>
-                  AlphaPoker is a web-based poker training application that helps you sharpen your game against AI opponents using GTO (Game-Theory-Optimal) strategy. Play No-Limit Texas Hold'em and Pot-Limit Omaha in heads-up through 6-max formats, with a real-time AI coach providing GTO-based feedback on every decision.
+                  AlphaPoker is a web-based poker trainer that lets you practice against AI opponents using GTO (Game-Theory-Optimal) strategy. Play No-Limit Texas Hold'em and Pot-Limit Omaha in heads-up through 6-max formats, with a real-time coach analyzing every decision and comparing your plays to optimal strategy.
                 </p>
                 <h4>Key Features:</h4>
                 <ul>
@@ -186,9 +186,9 @@ const Products: React.FC = () => {
                   <li>Hand sharing via Text/SMS, WhatsApp, X, Email with OG preview images.</li>
                   <li>Responsive design for desktop, tablet, and mobile.</li>
                 </ul>
-                <h4>Target Market:</h4>
+                <h4>Who it's for:</h4>
                 <p>
-                  Poker players seeking professional-level GTO training and analysis without paying for expensive solver software.
+                  Poker players who want serious GTO training and analysis without paying for expensive solver software.
                 </p>
                 <button type="button" className="btn-primary" onClick={() => setAccessOpen('AlphaPoker')}>
                   Request Access
@@ -204,10 +204,10 @@ const Products: React.FC = () => {
         <div className="container">
           <h2>What's Next?</h2>
           <p className="future-intro">
-            We're constantly exploring new opportunities where AI can create transformative value. Our innovation lab is always working on the next breakthrough.
+            We're always poking at new ideas. If one of our products interests you, or you have an idea for something we should build, get in touch.
           </p>
           <div className="innovation-cta">
-            <p>Interested in partnering with us or learning about upcoming products?</p>
+            <p>Interested in partnering with us, or have an idea for what we should build next?</p>
             <button
               className="btn-secondary"
               onClick={() => {

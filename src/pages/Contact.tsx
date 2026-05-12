@@ -74,10 +74,7 @@ const Contact: React.FC = () => {
             <div className="contact-info">
               <h2>Partnership Opportunities</h2>
               <p>
-                We're actively seeking strategic partnerships to enhance our products and 
-                expand our reach. Whether you're interested in integrating with our platforms, 
-                exploring investment opportunities, or discussing other forms of collaboration, 
-                we'd love to hear from you.
+                We're open to partnerships, integrations, and conversations with investors or anyone who thinks we could build something together. Email us, or use the form.
               </p>
               
               <div className="contact-methods">
@@ -164,7 +161,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     rows={6}
                     required
-                    placeholder="Tell us about your interest in Maia Technologies and how we might work together..."
+                    placeholder="What brings you here? A few sentences is fine."
                     disabled={isSubmitting}
                   />
                 </div>
@@ -201,12 +198,11 @@ const Contact: React.FC = () => {
             <div className="office">
               <h3>Headquarters</h3>
               <p>United States</p>
-              <p>Remote-first organization with team members across the country</p>
+              <p>Remote-first team across multiple cities and time zones.</p>
             </div>
             <div className="office">
-              <h3>Development Centers</h3>
-              <p>Distributed Team</p>
-              <p>Engineers and designers working from major tech hubs</p>
+              <h3>How We Work</h3>
+              <p>Distributed and asynchronous, with regular video syncs and a shared product cadence.</p>
             </div>
           </div>
         </div>

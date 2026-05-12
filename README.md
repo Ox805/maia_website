@@ -1,10 +1,10 @@
 # Maia Technologies Corporate Website
 
-This is the official corporate website for Maia Technologies, an AI innovation lab building tomorrow's AI-powered businesses.
+This is the marketing website for Maia Technologies, a small team building practical AI software.
 
 ## About Maia Technologies
 
-Maia Technologies is a technology innovation lab that identifies transformative opportunities in the AI landscape and builds category-defining software products. Our flagship products include:
+Maia Technologies is a small team building AI software, picking problems where good tools don't exist yet or where existing ones could be cheaper or better. Our current products:
 
 - **Maia**: Your AI-powered productivity companion (iOS).
 - **BuildMyApp**: A demand-first software marketplace where buyers commission custom software and license completed products.

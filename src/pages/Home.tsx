@@ -11,10 +11,10 @@ const Home: React.FC = () => {
     <>
       <section className="hero-section">
         <div className="hero-content">
-          <h1>Building Tomorrow's AI-Powered Businesses</h1>
-          <p className="tagline">Transforming Industries Through AI Innovation</p>
+          <h1>Building Practical AI Products</h1>
+          <p className="tagline">Software we'd want to use ourselves</p>
           <p className="hero-description">
-            We're a technology innovation lab that identifies transformative opportunities in the AI landscape and builds category-defining software products, from flagship AI assistants to mediation platforms, marketplaces, and analytical tools.
+            We're a small team building AI software. We pick problems where good tools don't exist yet, or where existing ones could be cheaper or better. Today our products span personal productivity, software marketplaces, mediation, financial research, and poker training.
           </p>
           <div className="hero-buttons">
             <a href="#products" className="btn-primary">Explore Our Products</a>
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
 
       <section id="products" className="products-showcase">
         <div className="container">
-          <h2>Our Flagship Products</h2>
+          <h2>Our Products</h2>
           <div className="products-grid">
             <div className="product-card">
               <div className="product-icon">
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
               </div>
               <h3>Maia</h3>
               <p>
-                Maia is the flagship AI assistant from Maia AI LLC. Leveraging advanced language models and adaptive learning, Maia transforms how individuals manage tasks, information, and daily workflows.
+                An AI assistant for everyday tasks, scheduling, and information lookup. Maia learns how you work and adapts to your preferences, with a privacy-first design.
               </p>
               <span className="product-badge">Available on iOS</span>
             </div>
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
               </div>
               <h3>BuildMyApp</h3>
               <p>
-                A demand-first software marketplace where non-technical buyers commission custom software from independent developers and license completed products with one-click launch.
+                A marketplace for commissioning custom software. Buyers post fixed-price requests, developers build, and the finished apps launch with one click.
               </p>
               <a href="https://appmarketplace.dev" className="learn-more" target="_blank" rel="noopener noreferrer">Learn More &rarr;</a>
             </div>
@@ -55,7 +55,7 @@ const Home: React.FC = () => {
               </div>
               <h3>Vilora</h3>
               <p>
-                An AI-powered platform for mediation, collaboration, brainstorming, and decision-making. Use it alone, with another person, or as a group.
+                An AI for mediation, brainstorming, and tough decisions. Use it solo, with one other person, or as a group.
               </p>
               <a href="https://vilora.ai" className="learn-more" target="_blank" rel="noopener noreferrer">Learn More &rarr;</a>
             </div>
@@ -66,7 +66,7 @@ const Home: React.FC = () => {
               </div>
               <h3>AlphaAI</h3>
               <p>
-                An intelligent investment research platform combining on-demand AI agents for research, analysis, and strategy development with an automated investment discovery system.
+                AI agents for investment research, analysis, and strategy, plus an automated screener that surfaces undervalued opportunities. No coding required.
               </p>
               <button type="button" className="btn-primary" onClick={() => setAccessOpen('AlphaAI')}>
                 Request Access
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
               </div>
               <h3>AlphaPoker</h3>
               <p>
-                Practice poker against GTO-style AI opponents in No-Limit Texas Hold'em and Pot-Limit Omaha, with a real-time AI coach providing GTO-based feedback on every decision.
+                Practice No-Limit Hold'em and Pot-Limit Omaha against GTO-style AI opponents, with a real-time coach analyzing every decision. Solver-grade training without the solver price tag.
               </p>
               <button type="button" className="btn-primary" onClick={() => setAccessOpen('AlphaPoker')}>
                 Request Access
@@ -105,8 +105,8 @@ const Home: React.FC = () => {
               <p>5 Active Products</p>
             </div>
             <div className="stat">
-              <h3>Mission</h3>
-              <p>AI-Driven Transformation</p>
+              <h3>Approach</h3>
+              <p>Practical AI</p>
             </div>
           </div>
         </div>
@@ -114,22 +114,22 @@ const Home: React.FC = () => {
 
       <section className="innovation-approach">
         <div className="container">
-          <h2>Our Innovation Approach</h2>
+          <h2>How We Work</h2>
           <p className="approach-intro">
-            At Maia AI, we don't just build products; we identify market opportunities where AI can create transformative value and develop solutions that define new categories.
+            We look for things we'd want to use that either don't exist yet or could be built better or cheaper. Then we build them.
           </p>
           <div className="approach-grid">
             <div className="approach-card">
-              <h3>Market Discovery</h3>
-              <p>We continuously scan industries for opportunities where AI can solve real problems and create significant value.</p>
+              <h3>Pick Real Problems</h3>
+              <p>We start with problems we have or see firsthand. If the existing solution is fine, we leave it alone.</p>
             </div>
             <div className="approach-card">
-              <h3>Rapid Prototyping</h3>
-              <p>Our agile development process allows us to quickly validate ideas and iterate based on user feedback.</p>
+              <h3>Ship Early</h3>
+              <p>Get something working, put it in front of users, fix what's wrong, repeat. We'd rather learn from real use than guess on a roadmap.</p>
             </div>
             <div className="approach-card">
-              <h3>Strategic Partnerships</h3>
-              <p>We collaborate with industry leaders to ensure our solutions integrate seamlessly into existing ecosystems.</p>
+              <h3>Better or Cheaper</h3>
+              <p>If a tool exists but feels overpriced or under-built, that's a good place to put our time.</p>
             </div>
           </div>
         </div>
