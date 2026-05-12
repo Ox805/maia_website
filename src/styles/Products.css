@@ -199,6 +199,17 @@
   font-size: 1.1rem;
 }
 
+.product-section .product-badge {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  background: #f1f3f5;
+  color: #1a1a2e;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .products-hero h1 {
