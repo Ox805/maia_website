@@ -23,7 +23,7 @@ const Products: React.FC = () => {
 
           <div className="product-section" id="maia">
             <div className="product-header">
-              <h2>Maia</h2>
+              <h2><img src="/images/logos/maia-logo.png" alt="Maia" className="product-section-logo" /></h2>
               <span className="product-status active">Active</span>
             </div>
             <div className="product-content reverse">
@@ -54,7 +54,7 @@ const Products: React.FC = () => {
 
           <div className="product-section" id="buildmyapp">
             <div className="product-header">
-              <h2>BuildMyApp</h2>
+              <h2><img src="/images/logos/bma-logo.png" alt="BuildMyApp" className="product-section-logo" /></h2>
               <span className="product-status active">Active (private pilot)</span>
             </div>
             <div className="product-content">
@@ -91,7 +91,7 @@ const Products: React.FC = () => {
 
           <div className="product-section" id="vilora">
             <div className="product-header">
-              <h2>Vilora</h2>
+              <h2><img src="/images/logos/vilora-logo.svg" alt="Vilora" className="product-section-logo" /></h2>
               <span className="product-status active">Active</span>
             </div>
             <div className="product-content reverse">

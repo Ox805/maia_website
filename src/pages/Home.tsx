@@ -31,7 +31,7 @@ const Home: React.FC = () => {
               <div className="product-icon">
                 <img src="/images/maia-icon.jpg" alt="Maia" className="product-icon-img" />
               </div>
-              <h3>Maia</h3>
+              <h3><img src="/images/logos/maia-logo.png" alt="Maia" className="product-logo" /></h3>
               <p>
                 An AI that handles phone calls for you. Maia navigates phone trees, gets account information, holds your place in line, and gets you to a live person, so you can skip the bot gatekeepers.
               </p>
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
               <div className="product-icon">
                 <img src="/images/buildmyapp-icon.png" alt="BuildMyApp" className="product-icon-img" />
               </div>
-              <h3>BuildMyApp</h3>
+              <h3><img src="/images/logos/bma-logo.png" alt="BuildMyApp" className="product-logo" /></h3>
               <p>
                 A marketplace for commissioning custom software. Buyers post fixed-price requests, developers build, and the finished apps launch with one click.
               </p>
@@ -53,7 +53,7 @@ const Home: React.FC = () => {
               <div className="product-icon">
                 <img src="/images/vilora-icon.png" alt="Vilora" className="product-icon-img" />
               </div>
-              <h3>Vilora</h3>
+              <h3><img src="/images/logos/vilora-logo.svg" alt="Vilora" className="product-logo" /></h3>
               <p>
                 An AI for mediation, brainstorming, and tough decisions. Use it solo, with one other person, or as a group.
               </p>
