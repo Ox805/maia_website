@@ -16,9 +16,11 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <h4>Products</h4>
             <ul>
-              <li><Link to="/products/edgeview">EdgeView Pickleball</Link></li>
-              <li><a href="https://myaiassistant.net/personal-assistant" target="_blank" rel="noopener noreferrer">Maia Personal</a></li>
-              <li><a href="https://myaiassistant.net/business-assistant-1" target="_blank" rel="noopener noreferrer">Maia Business</a></li>
+              <li><Link to="/products#maia">Maia</Link></li>
+              <li><Link to="/products#buildmyapp">BuildMyApp</Link></li>
+              <li><Link to="/products#vilora">Vilora</Link></li>
+              <li><Link to="/products#alphaai">AlphaAI</Link></li>
+              <li><Link to="/products#alphapoker">AlphaPoker</Link></li>
             </ul>
           </div>
           
