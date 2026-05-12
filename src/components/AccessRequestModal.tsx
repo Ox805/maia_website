@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../styles/AccessRequestModal.css';
 
@@ -24,6 +24,7 @@ const AccessRequestModal: React.FC<AccessRequestModalProps> = ({ productName, is
   const [formData, setFormData] = useState(initialForm);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const successTimeoutRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -39,8 +40,21 @@ const AccessRequestModal: React.FC<AccessRequestModalProps> = ({ productName, is
       setFormData(initialForm);
       setSubmitStatus('idle');
       setIsSubmitting(false);
+      if (successTimeoutRef.current !== null) {
+        clearTimeout(successTimeoutRef.current);
+        successTimeoutRef.current = null;
+      }
     }
   }, [isOpen]);
+
+  useEffect(() => {
+    return () => {
+      if (successTimeoutRef.current !== null) {
+        clearTimeout(successTimeoutRef.current);
+        successTimeoutRef.current = null;
+      }
+    };
+  }, []);
 
   if (!isOpen) return null;
 
@@ -67,7 +81,10 @@ const AccessRequestModal: React.FC<AccessRequestModalProps> = ({ productName, is
         EMAILJS_PUBLIC_KEY,
       );
       setSubmitStatus('success');
-      setTimeout(onClose, 1500);
+      successTimeoutRef.current = window.setTimeout(() => {
+        successTimeoutRef.current = null;
+        onClose();
+      }, 1500);
     } catch (err) {
       console.error('AccessRequestModal EmailJS error:', err);
       setSubmitStatus('error');

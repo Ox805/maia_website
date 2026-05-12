@@ -59,4 +59,23 @@ describe('AccessRequestModal', () => {
     fireEvent.click(screen.getByTestId('access-modal-backdrop'));
     expect(onClose).toHaveBeenCalledTimes(1);
   });
+
+  test('shows an error message and keeps the modal open when emailjs.send fails', async () => {
+    sendMock.mockRejectedValueOnce(new Error('network'));
+    const onClose = jest.fn();
+    render(<AccessRequestModal productName="AlphaAI" isOpen={true} onClose={onClose} />);
+
+    fireEvent.change(screen.getByLabelText(/name/i), { target: { value: 'Sam' } });
+    fireEvent.change(screen.getByLabelText(/company/i), { target: { value: 'Acme' } });
+    fireEvent.change(screen.getByLabelText(/email/i), { target: { value: 'sam@example.com' } });
+    fireEvent.change(screen.getByLabelText(/city/i), { target: { value: 'Austin' } });
+    fireEvent.change(screen.getByLabelText(/reason/i), { target: { value: 'Curious' } });
+
+    fireEvent.click(screen.getByRole('button', { name: /submit/i }));
+
+    await waitFor(() => expect(sendMock).toHaveBeenCalledTimes(1));
+    expect(await screen.findByText(/something went wrong/i)).toBeInTheDocument();
+    expect(onClose).not.toHaveBeenCalled();
+    expect(screen.getByRole('dialog')).toBeInTheDocument();
+  });
 });
