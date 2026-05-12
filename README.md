@@ -6,9 +6,11 @@ This is the official corporate website for Maia Technologies, an AI innovation l
 
 Maia Technologies is a technology innovation lab that identifies transformative opportunities in the AI landscape and builds category-defining software products. Our flagship products include:
 
-- **EdgeView Sports Platform** - AI-powered sports platform starting with pickleball
-- **Maia Personal Assistant** - AI-powered productivity companion
-- **Maia Business Assistant** - Enterprise-grade AI solutions
+- **Maia**: Your AI-powered productivity companion (iOS).
+- **BuildMyApp**: A demand-first software marketplace where buyers commission custom software and license completed products.
+- **Vilora**: An AI-powered platform for mediation, collaboration, brainstorming, and decision-making.
+- **AlphaAI**: An intelligent investment research platform combining AI agents with automated discovery (private access).
+- **AlphaPoker**: A web-based GTO poker training application with AI opponents and a real-time coach (private access).
 
 ## Tech Stack
 

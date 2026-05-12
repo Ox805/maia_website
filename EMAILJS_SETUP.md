@@ -86,3 +86,49 @@ await emailjs.send(
 - If you need more, EmailJS has affordable paid plans
 
 Your contact form will be fully functional once you complete these steps!
+
+---
+
+## Access Request Template (for AlphaAI and AlphaPoker)
+
+The `AccessRequestModal` component (`src/components/AccessRequestModal.tsx`) submits to a dedicated EmailJS template separate from the contact form. Create this template in the EmailJS dashboard before the live launch.
+
+### Template Variables (must match the `emailjs.send()` payload in code)
+
+- `product_name`: "AlphaAI" or "AlphaPoker"
+- `from_name`
+- `company`
+- `from_email`
+- `city`
+- `reason`
+
+### Suggested Subject
+
+```
+New access request for {{product_name}} from {{from_name}}
+```
+
+### Suggested Body
+
+```
+New access request from the Maia Technologies website:
+
+Product:   {{product_name}}
+Name:      {{from_name}}
+Company:   {{company}}
+Email:     {{from_email}}
+City:      {{city}}
+
+Reason for request:
+{{reason}}
+
+This message was sent from the Request Access form on maiatech.ai.
+```
+
+### Recipient
+
+The recipient (`support@maiatech.ai`) is configured on the EmailJS template, not in code.
+
+### Wiring the Template ID
+
+After creating the template, copy the Template ID and replace the placeholder constant `EMAILJS_ACCESS_TEMPLATE_ID` in `src/components/AccessRequestModal.tsx` (currently set to `'TEMPLATE_ID_FROM_TIM'`).
