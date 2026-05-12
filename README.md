@@ -114,7 +114,7 @@ This creates a `build` folder with optimized production files.
 For questions about this website or Maia Technologies:
 
 - Website: [maiatech.ai](https://maiatech.ai)
-- Email: info@maiatech.ai
+- Email: support@maiatech.ai
 - Partnerships: partnerships@maiatech.ai
 
 ## License

@@ -177,7 +177,7 @@ const Contact: React.FC = () => {
 
                 {submitStatus === 'error' && (
                   <div className="form-message error">
-                    ✗ Sorry, there was an error sending your message. Please try again or email us directly at info@maiatech.ai
+                    ✗ Sorry, there was an error sending your message. Please try again or email us directly at support@maiatech.ai
                   </div>
                 )}
 

@@ -193,7 +193,7 @@ const AccessRequestModal: React.FC<AccessRequestModalProps> = ({ productName, is
           )}
           {submitStatus === 'error' && (
             <div className="form-message error">
-              Sorry, something went wrong. Please email us directly at <a href="mailto:info@maiatech.ai">info@maiatech.ai</a>.
+              Sorry, something went wrong. Please email us directly at <a href="mailto:support@maiatech.ai">support@maiatech.ai</a>.
             </div>
           )}
 

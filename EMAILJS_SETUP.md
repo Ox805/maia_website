@@ -10,7 +10,7 @@ The contact form is now ready for EmailJS integration! Follow these steps to com
 ## Step 2: Add Email Service
 1. In your EmailJS dashboard, click **"Add New Service"**
 2. Choose **Gmail** (recommended) or your preferred email provider
-3. Connect your email account (use info@maiatech.ai if possible)
+3. Connect your email account (use support@maiatech.ai if possible)
 4. Note down your **Service ID** (looks like: `service_xxxxxx`)
 
 ## Step 3: Create Email Template
@@ -127,7 +127,7 @@ This message was sent from the Request Access form on maiatech.ai.
 
 ### Recipient
 
-The recipient (`info@maiatech.ai`) is configured on the EmailJS template, not in code.
+The recipient (`support@maiatech.ai`) is configured on the EmailJS template, not in code.
 
 ### Wiring the Template ID
 

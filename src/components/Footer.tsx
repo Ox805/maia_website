@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <h4>Connect</h4>
             <ul>
-              <li><a href="mailto:info@maiatech.ai">info@maiatech.ai</a></li>
+              <li><a href="mailto:support@maiatech.ai">support@maiatech.ai</a></li>
               {/* <li><a href="https://linkedin.com/company/maia-technologies" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
               <li><a href="https://twitter.com/maiatech" target="_blank" rel="noopener noreferrer">Twitter</a></li> */}
             </ul>
