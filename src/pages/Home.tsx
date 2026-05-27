@@ -51,7 +51,7 @@ const Home: React.FC = () => {
 
             <div className="product-card">
               <div className="product-icon">
-                <img src="/images/vilora-icon.png" alt="Vilora" className="product-icon-img" />
+                <img src="/images/vilora-website-image.jpg" alt="Vilora" className="product-icon-img" />
               </div>
               <h3><img src="/images/logos/vilora-logo.svg" alt="Vilora" className="product-logo" /></h3>
               <p>
